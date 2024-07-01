@@ -1,2 +1,122 @@
-[2024-06-29 12:35:25,217: INFO: main: Welcome to custom logging]
-[2024-06-29 12:35:57,126: INFO: main: Welcome to custom logging]
+[2024-07-01 12:41:39,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-01 12:41:39,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-01 12:41:39,031: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-01 12:41:39,087: INFO: common: created directory at: artifacts]
+[2024-07-01 12:41:39,087: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-01 12:41:44,198: INFO: 2280763589: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 65BA:1C8834:24155B:30F1F4:668256B0
+Accept-Ranges: bytes
+Date: Mon, 01 Jul 2024 07:11:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1719817905.698274,VS0,VE283
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 27ead7e63f2beefb248d5354f2e508800d833b51
+Expires: Mon, 01 Jul 2024 07:16:44 GMT
+Source-Age: 0
+
+]
+[2024-07-01 20:18:23,451: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-01 20:18:23,701: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-01 20:18:23,701: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-01 20:18:23,701: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-01 20:18:23,701: INFO: common: created directory at: artifacts]
+[2024-07-01 20:18:23,701: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-01 20:18:24,990: ERROR: main: <urlopen error [Errno 11001] getaddrinfo failed>]
+Traceback (most recent call last):
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 951, in send
+    self.connect()
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 1418, in connect
+    super().connect()
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\http\client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\urllib\request.py", line 1357, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[2024-07-01 20:34:57,404: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-01 20:34:57,406: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-01 20:34:57,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-01 20:34:57,408: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-01 20:34:57,408: INFO: common: created directory at: artifacts]
+[2024-07-01 20:34:57,409: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-01 20:35:00,568: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 385E:517E5:40A1AC:53C8D6:6682C59C
+Accept-Ranges: bytes
+Date: Mon, 01 Jul 2024 15:05:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1719846301.043451,VS0,VE289
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0a27e504d1a31fab4aea0e4a3ad4f5de017667df
+Expires: Mon, 01 Jul 2024 15:10:01 GMT
+Source-Age: 0
+
+]
+[2024-07-01 20:35:00,659: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
