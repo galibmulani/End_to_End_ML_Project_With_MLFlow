@@ -120,3 +120,67 @@ Source-Age: 0
 [2024-07-01 20:35:00,659: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
 
 x==========x]
+[2024-07-07 11:06:50,419: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-07 11:06:50,879: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-07 11:06:50,896: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-07 11:06:50,904: INFO: common: created directory at: artifacts]
+[2024-07-07 11:06:50,912: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-07 11:06:54,452: INFO: 2280763589: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BC96:D99F5:1056C5:172DBC:668A2976
+Accept-Ranges: bytes
+Date: Sun, 07 Jul 2024 05:36:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720330614.476983,VS0,VE285
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cdb1a2cb92a25598fe748a0e9d118ab6e745d7f0
+Expires: Sun, 07 Jul 2024 05:41:54 GMT
+Source-Age: 0
+
+]
+[2024-07-08 10:29:15,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 10:29:15,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 10:29:15,774: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 10:29:15,783: INFO: common: created directory at: artifacts]
+[2024-07-08 10:29:15,791: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 10:29:20,109: INFO: 2280763589: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2786:D519F:1AF35B:26074B:668B7228
+Accept-Ranges: bytes
+Date: Mon, 08 Jul 2024 04:59:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100034-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720414760.082107,VS0,VE280
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 13faf32a8f7e92936ae913169a15200ce4283a1d
+Expires: Mon, 08 Jul 2024 05:04:20 GMT
+Source-Age: 0
+
+]
