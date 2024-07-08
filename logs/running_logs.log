@@ -18,3 +18,483 @@ x==========x]
 [2024-07-08 10:50:32,077: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
 
 x==========x]
+[2024-07-08 13:12:11,633: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 13:12:11,641: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 13:12:11,654: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 13:12:11,695: INFO: common: created directory at: artifacts]
+[2024-07-08 13:21:25,825: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 13:21:25,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 13:21:25,833: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 13:21:25,841: INFO: common: created directory at: artifacts]
+[2024-07-08 13:21:25,841: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 14:27:47,699: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 14:27:47,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 14:27:47,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 14:27:47,749: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 14:27:47,749: INFO: common: created directory at: artifacts]
+[2024-07-08 14:27:47,757: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 14:27:51,232: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 97C5:D88C7:1DC460:299034:668BAA10
+Accept-Ranges: bytes
+Date: Mon, 08 Jul 2024 08:57:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100025-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720429072.052713,VS0,VE329
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 78a6f523551782e63ad0472c6d675432e5b86a89
+Expires: Mon, 08 Jul 2024 09:02:52 GMT
+Source-Age: 0
+
+]
+[2024-07-08 14:27:51,628: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 14:29:45,702: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 14:29:45,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 14:29:45,705: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 14:29:45,708: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 14:29:45,709: INFO: common: created directory at: artifacts]
+[2024-07-08 14:29:45,709: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 14:29:45,710: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 14:29:46,209: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 14:29:46,209: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 14:29:46,210: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 14:32:22,016: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 14:32:22,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 14:32:22,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 14:32:22,068: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 14:32:22,070: INFO: common: created directory at: artifacts]
+[2024-07-08 14:32:22,070: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 14:32:22,070: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 14:32:22,103: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 14:32:22,103: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 14:32:22,103: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 15:33:21,392: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 15:33:21,432: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 15:33:21,432: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 15:33:21,442: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 15:33:21,442: INFO: common: created directory at: artifacts]
+[2024-07-08 15:33:21,443: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 15:33:21,444: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 15:33:22,365: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 15:33:22,365: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 15:33:22,365: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 15:43:27,285: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 15:43:27,303: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 15:43:27,307: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 15:43:27,315: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 15:43:27,317: INFO: common: created directory at: artifacts]
+[2024-07-08 15:43:27,318: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 15:43:27,320: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 15:43:27,478: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 15:43:27,479: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 15:43:27,480: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 16:03:56,462: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:03:56,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:03:56,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:03:56,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:03:56,477: INFO: common: created directory at: artifacts]
+[2024-07-08 16:03:56,477: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:03:56,477: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:03:56,565: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:03:56,566: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:03:56,567: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 16:05:13,578: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:05:13,578: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:05:13,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:05:13,578: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:05:13,588: INFO: common: created directory at: artifacts]
+[2024-07-08 16:05:13,588: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:05:13,589: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:05:13,595: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:05:13,596: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:05:13,596: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:10:57,942: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:10:57,942: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:10:57,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:10:57,942: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:10:57,959: INFO: common: created directory at: artifacts]
+[2024-07-08 16:10:57,960: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:11:02,223: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9D25:E78FF:1FEF0C:2C0A81:668BC23D
+Accept-Ranges: bytes
+Date: Mon, 08 Jul 2024 10:41:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720435261.195209,VS0,VE284
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 04c9cfbc37c25753eece39a60e4e523ec9592730
+Expires: Mon, 08 Jul 2024 10:46:01 GMT
+Source-Age: 0
+
+]
+[2024-07-08 16:11:02,529: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:11:02,530: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:11:02,531: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:12:56,672: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:12:56,672: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:12:56,672: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:12:56,672: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:12:56,672: INFO: common: created directory at: artifacts]
+[2024-07-08 16:12:56,672: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:12:56,672: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:12:56,672: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:12:56,687: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:12:56,687: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 16:13:55,095: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:13:55,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:13:55,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:13:55,111: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:13:55,111: INFO: common: created directory at: artifacts]
+[2024-07-08 16:13:55,111: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:13:55,111: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:13:55,111: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:13:55,111: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:13:55,111: ERROR: main: main() takes 0 positional arguments but 1 was given]
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-07-08 16:18:47,148: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:18:47,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:18:47,163: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:18:47,163: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:18:47,163: INFO: common: created directory at: artifacts]
+[2024-07-08 16:18:47,163: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:18:47,163: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:18:47,163: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:18:47,163: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:18:47,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:18:47,163: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:18:47,179: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:18:47,179: INFO: common: created directory at: artifacts]
+[2024-07-08 16:18:47,179: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation_config = config.get_data_validation_config()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([self.config.root_dir])
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2024-07-08 16:20:26,447: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:20:26,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:20:26,447: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:20:26,447: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:20:26,447: INFO: common: created directory at: artifacts]
+[2024-07-08 16:20:26,468: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:20:26,469: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:20:26,504: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:20:26,516: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:20:26,536: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:20:26,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:20:26,559: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:20:26,579: INFO: common: created directory at: artifacts]
+[2024-07-08 16:20:26,585: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation_config = config.get_data_validation_config()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([self.config.root_dir])
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2024-07-08 16:21:47,961: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:21:47,961: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:21:47,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:21:47,961: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:21:47,971: INFO: common: created directory at: artifacts]
+[2024-07-08 16:21:47,972: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:21:47,973: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:21:47,978: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:21:47,979: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:21:47,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:21:47,990: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:21:47,998: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:21:48,000: INFO: common: created directory at: artifacts]
+[2024-07-08 16:21:48,001: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 16:21:48,001: ERROR: main: __init__() got an unexpected keyword argument 'root']
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_ingestion.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation_config = config.get_data_validation_config()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\config\configuration.py", line 40, in get_data_validation_config
+    data_validation_config=DataValidationConfig(
+TypeError: __init__() got an unexpected keyword argument 'root'
+[2024-07-08 16:23:32,156: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:23:32,156: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:23:32,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:23:32,156: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:23:32,167: INFO: common: created directory at: artifacts]
+[2024-07-08 16:23:32,167: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:23:32,168: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:23:32,173: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:23:32,174: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:23:32,184: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:23:32,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:23:32,189: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:23:32,190: INFO: common: created directory at: artifacts]
+[2024-07-08 16:23:32,192: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 16:23:32,253: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:25:58,318: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:25:58,318: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:25:58,318: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:25:58,318: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:25:58,318: INFO: common: created directory at: artifacts]
+[2024-07-08 16:25:58,318: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:26:00,208: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 59B0:D9431:20DEE6:2D0598:668BC5BF
+Accept-Ranges: bytes
+Date: Mon, 08 Jul 2024 10:55:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720436160.657277,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 901cbca48b2f27711124997adfdcc819fbcb1c4a
+Expires: Mon, 08 Jul 2024 11:00:59 GMT
+Source-Age: 0
+
+]
+[2024-07-08 16:26:00,224: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:26:00,224: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:26:00,224: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:26:00,224: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:26:00,240: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:26:00,240: INFO: common: created directory at: artifacts]
+[2024-07-08 16:26:00,240: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 16:26:00,271: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:28:00,294: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:28:00,294: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:28:00,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:28:00,544: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:28:00,544: INFO: common: created directory at: artifacts]
+[2024-07-08 16:28:00,544: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:28:00,544: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:28:00,564: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:28:00,564: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:28:00,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:28:00,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:28:00,580: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:28:00,580: INFO: common: created directory at: artifacts]
+[2024-07-08 16:28:00,580: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 16:28:00,611: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:29:13,670: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-08 16:29:13,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:29:13,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:29:13,731: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:29:13,732: INFO: common: created directory at: artifacts]
+[2024-07-08 16:29:13,733: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-08 16:29:13,734: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-08 16:29:13,738: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-08 16:29:13,739: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-08 16:29:13,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-08 16:29:13,748: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-08 16:29:13,754: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-08 16:29:13,756: INFO: common: created directory at: artifacts]
+[2024-07-08 16:29:13,759: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-08 16:29:13,789: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
