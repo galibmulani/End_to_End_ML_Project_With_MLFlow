@@ -702,3 +702,459 @@ x==========x]
 [2024-07-09 21:51:31,782: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
 
 x==========x]
+[2024-07-09 23:30:56,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-09 23:30:56,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-09 23:30:56,594: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-09 23:30:56,602: INFO: common: created directory at: artifacts]
+[2024-07-09 23:30:56,610: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 00:09:01,308: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 00:09:01,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:09:01,308: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:09:01,324: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:09:01,324: INFO: common: created directory at: artifacts]
+[2024-07-10 00:09:01,324: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 00:09:03,692: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 26C1:D9431:38CDF2:4AB3F3:668D83C1
+Accept-Ranges: bytes
+Date: Tue, 09 Jul 2024 18:39:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100029-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720550343.468638,VS0,VE345
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9dee4a7ea5de850a19bb8bc49d071a611cb9df2b
+Expires: Tue, 09 Jul 2024 18:44:03 GMT
+Source-Age: 0
+
+]
+[2024-07-10 00:09:03,723: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:09:03,723: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 00:09:03,754: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:09:03,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:09:03,786: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:09:03,786: INFO: common: created directory at: artifacts]
+[2024-07-10 00:09:03,786: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 00:09:03,879: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:09:03,879: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 00:09:03,911: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:09:03,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:09:03,926: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:09:03,942: INFO: common: created directory at: artifacts]
+[2024-07-10 00:09:03,942: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 00:09:04,004: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 00:09:04,004: INFO: data_transformation: (1199, 12)]
+[2024-07-10 00:09:04,004: INFO: data_transformation: (400, 12)]
+[2024-07-10 00:09:04,004: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:09:04,004: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 00:09:04,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:09:04,020: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:09:04,020: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:09:04,020: INFO: common: created directory at: artifacts]
+[2024-07-10 00:09:04,020: ERROR: main: 'ConfigurationManager' object has no attribute 'get_model_trainer_config']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config=config.get_model_trainer_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_trainer_config'
+[2024-07-10 00:13:35,427: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 00:13:35,427: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:13:35,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:13:35,443: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:13:35,443: INFO: common: created directory at: artifacts]
+[2024-07-10 00:13:35,443: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 00:13:35,443: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-10 00:13:35,443: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:13:35,443: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 00:13:35,443: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:13:35,443: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:13:35,458: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:13:35,458: INFO: common: created directory at: artifacts]
+[2024-07-10 00:13:35,458: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 00:13:35,474: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:13:35,474: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 00:13:35,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:13:35,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:13:35,489: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:13:35,489: INFO: common: created directory at: artifacts]
+[2024-07-10 00:13:35,489: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 00:13:35,521: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 00:13:35,521: INFO: data_transformation: (1199, 12)]
+[2024-07-10 00:13:35,521: INFO: data_transformation: (400, 12)]
+[2024-07-10 00:13:35,521: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:13:35,521: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 00:13:35,521: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:13:35,521: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:13:35,536: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:13:35,536: INFO: common: created directory at: artifacts]
+[2024-07-10 00:13:35,536: ERROR: main: 'ConfigurationManager' object has no attribute 'get_model_trainer_config']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config=config.get_model_trainer_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_trainer_config'
+[2024-07-10 00:17:23,366: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 00:17:23,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:17:23,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:17:23,382: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:17:23,382: INFO: common: created directory at: artifacts]
+[2024-07-10 00:17:23,382: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 00:17:23,382: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-10 00:17:23,382: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:17:23,382: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 00:17:23,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:17:23,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:17:23,398: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:17:23,398: INFO: common: created directory at: artifacts]
+[2024-07-10 00:17:23,398: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 00:17:23,445: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:17:23,445: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 00:17:23,445: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:17:23,445: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:17:23,445: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:17:23,445: INFO: common: created directory at: artifacts]
+[2024-07-10 00:17:23,445: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 00:17:23,491: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 00:17:23,491: INFO: data_transformation: (1199, 12)]
+[2024-07-10 00:17:23,491: INFO: data_transformation: (400, 12)]
+[2024-07-10 00:17:23,491: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:17:23,491: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 00:17:23,491: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:17:23,491: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:17:23,491: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:17:23,491: INFO: common: created directory at: artifacts]
+[2024-07-10 00:17:23,491: ERROR: main: 'ConfigurationManager' object has no attribute 'get_model_trainer_config']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config=config.get_model_trainer_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_trainer_config'
+[2024-07-10 00:20:35,703: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 00:20:35,703: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:20:35,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:20:35,719: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:20:35,719: INFO: common: created directory at: artifacts]
+[2024-07-10 00:20:35,719: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 00:20:35,719: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-10 00:20:35,719: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:20:35,719: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 00:20:35,735: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:20:35,735: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:20:35,735: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:20:35,735: INFO: common: created directory at: artifacts]
+[2024-07-10 00:20:35,735: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 00:20:35,766: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:20:35,766: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 00:20:35,766: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:20:35,782: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:20:35,782: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:20:35,782: INFO: common: created directory at: artifacts]
+[2024-07-10 00:20:35,782: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 00:20:35,813: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 00:20:35,813: INFO: data_transformation: (1199, 12)]
+[2024-07-10 00:20:35,813: INFO: data_transformation: (400, 12)]
+[2024-07-10 00:20:35,813: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:20:35,813: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 00:20:35,813: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:20:35,828: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:20:35,828: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:20:35,828: INFO: common: created directory at: artifacts]
+[2024-07-10 00:20:35,828: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 00:20:36,016: ERROR: main: Cannot specify both 'labels' and 'index'/'columns']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\components\model_trainer.py", line 20, in train
+    train_x=train_data.drop([self.config.target_column],index=False)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\frame.py", line 5258, in drop
+    return super().drop(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\generic.py", line 4533, in drop
+    raise ValueError("Cannot specify both 'labels' and 'index'/'columns'")
+ValueError: Cannot specify both 'labels' and 'index'/'columns'
+[2024-07-10 00:24:01,426: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 00:24:01,441: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:24:01,441: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:24:01,441: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:24:01,441: INFO: common: created directory at: artifacts]
+[2024-07-10 00:24:01,441: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 00:24:01,441: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-10 00:24:01,441: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:24:01,441: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 00:24:01,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:24:01,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:24:01,457: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:24:01,457: INFO: common: created directory at: artifacts]
+[2024-07-10 00:24:01,457: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 00:24:01,488: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:24:01,488: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 00:24:01,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:24:01,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:24:01,504: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:24:01,504: INFO: common: created directory at: artifacts]
+[2024-07-10 00:24:01,504: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 00:24:01,535: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 00:24:01,535: INFO: data_transformation: (1199, 12)]
+[2024-07-10 00:24:01,535: INFO: data_transformation: (400, 12)]
+[2024-07-10 00:24:01,535: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 00:24:01,535: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 00:24:01,535: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 00:24:01,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 00:24:01,535: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 00:24:01,535: INFO: common: created directory at: artifacts]
+[2024-07-10 00:24:01,535: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 00:24:01,707: ERROR: main: Cannot specify both 'labels' and 'index'/'columns']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\components\model_trainer.py", line 20, in train
+    train_x=train_data.drop([self.config.target_column],index=False)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\frame.py", line 5258, in drop
+    return super().drop(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\generic.py", line 4533, in drop
+    raise ValueError("Cannot specify both 'labels' and 'index'/'columns'")
+ValueError: Cannot specify both 'labels' and 'index'/'columns'
+[2024-07-10 11:20:18,442: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 11:20:18,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:20:18,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:20:18,558: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:20:18,623: INFO: common: created directory at: artifacts]
+[2024-07-10 11:20:18,623: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 11:20:24,183: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7D62:D3BC1:3C46FF:5037B7:668E2120
+Accept-Ranges: bytes
+Date: Wed, 10 Jul 2024 05:50:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100035-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720590625.546921,VS0,VE284
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7d263ce49bea5a3804c1a6b5813f4716149c6af8
+Expires: Wed, 10 Jul 2024 05:55:24 GMT
+Source-Age: 0
+
+]
+[2024-07-10 11:20:24,852: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:20:24,852: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 11:20:24,852: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:20:24,852: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:20:24,852: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:20:24,852: INFO: common: created directory at: artifacts]
+[2024-07-10 11:20:24,852: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 11:20:26,404: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:20:26,404: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 11:20:26,419: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:20:26,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:20:26,426: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:20:26,426: INFO: common: created directory at: artifacts]
+[2024-07-10 11:20:26,605: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 11:20:29,257: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 11:20:29,257: INFO: data_transformation: (1199, 12)]
+[2024-07-10 11:20:29,273: INFO: data_transformation: (400, 12)]
+[2024-07-10 11:20:29,273: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:20:29,273: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 11:20:29,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:20:29,273: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:20:29,273: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:20:29,273: INFO: common: created directory at: artifacts]
+[2024-07-10 11:20:29,273: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 11:20:29,458: ERROR: main: Cannot specify both 'labels' and 'index'/'columns']
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\components\model_trainer.py", line 20, in train
+    train_x=train_data.drop([self.config.target_column],index=False)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\frame.py", line 5258, in drop
+    return super().drop(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\generic.py", line 4533, in drop
+    raise ValueError("Cannot specify both 'labels' and 'index'/'columns'")
+ValueError: Cannot specify both 'labels' and 'index'/'columns'
+[2024-07-10 11:38:51,195: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 11:38:51,225: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:38:51,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:38:51,313: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:38:51,314: INFO: common: created directory at: artifacts]
+[2024-07-10 11:38:51,317: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 11:38:54,577: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7D62:D3BC1:3C46FF:5037B7:668E2120
+Accept-Ranges: bytes
+Date: Wed, 10 Jul 2024 06:08:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100034-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1720591735.085711,VS0,VE285
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93149348c29ad547cbbfadadfd9ca3d3acef7234
+Expires: Wed, 10 Jul 2024 06:13:55 GMT
+Source-Age: 0
+
+]
+[2024-07-10 11:38:54,656: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:38:54,657: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 11:38:54,663: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:38:54,666: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:38:54,674: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:38:54,675: INFO: common: created directory at: artifacts]
+[2024-07-10 11:38:54,676: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 11:38:54,847: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:38:54,848: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 11:38:54,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:38:54,860: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:38:54,869: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:38:54,870: INFO: common: created directory at: artifacts]
+[2024-07-10 11:38:54,885: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 11:38:55,024: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 11:38:55,025: INFO: data_transformation: (1199, 12)]
+[2024-07-10 11:38:55,025: INFO: data_transformation: (400, 12)]
+[2024-07-10 11:38:55,025: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:38:55,025: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 11:38:55,034: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:38:55,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:38:55,042: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:38:55,043: INFO: common: created directory at: artifacts]
+[2024-07-10 11:38:55,044: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 11:38:55,077: ERROR: main: "['quality'] not found in axis"]
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    model_training.main()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "C:\Users\galib\AI\End-end-project\End_to_End_ML_Project_With_MLFlow\src\mlproject\components\model_trainer.py", line 20, in train
+    train_x=train_data.drop([self.config.target_column],axis=False)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\frame.py", line 5258, in drop
+    return super().drop(
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\generic.py", line 4549, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\generic.py", line 4591, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\galib\anaconda3\envs\mlproj\lib\site-packages\pandas\core\indexes\base.py", line 6699, in drop
+    raise KeyError(f"{list(labels[mask])} not found in axis")
+KeyError: "['quality'] not found in axis"
+[2024-07-10 11:52:47,347: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-07-10 11:52:47,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:52:47,347: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:52:47,347: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:52:47,363: INFO: common: created directory at: artifacts]
+[2024-07-10 11:52:47,363: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-10 11:52:47,363: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-10 11:52:47,363: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:52:47,363: INFO: main: >>>>> stage Data Validation stage started <<<<<]
+[2024-07-10 11:52:47,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:52:47,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:52:47,363: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:52:47,363: INFO: common: created directory at: artifacts]
+[2024-07-10 11:52:47,363: INFO: common: created directory at: artifacts/data_validation]
+[2024-07-10 11:53:21,172: INFO: main: >>>>> stage Data Validation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:53:21,172: INFO: main: >>>>> stage Data Transformation stage started <<<<<]
+[2024-07-10 11:53:21,172: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:53:21,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:53:21,188: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:53:21,188: INFO: common: created directory at: artifacts]
+[2024-07-10 11:53:21,188: INFO: common: created directory at: artifacts/data_transformation]
+[2024-07-10 11:53:21,219: INFO: data_transformation: splited data into train and test sets]
+[2024-07-10 11:53:21,219: INFO: data_transformation: (1199, 12)]
+[2024-07-10 11:53:21,219: INFO: data_transformation: (400, 12)]
+[2024-07-10 11:53:21,219: INFO: main: >>>>> stage Data Transformation stage completed <<<<<
+
+x==========x]
+[2024-07-10 11:53:21,219: INFO: main: >>>>> stage Model Training stage started <<<<<]
+[2024-07-10 11:53:21,219: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-10 11:53:21,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-10 11:53:21,219: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-10 11:53:21,219: INFO: common: created directory at: artifacts]
+[2024-07-10 11:53:21,219: INFO: common: created directory at: artifacts/model_trainer]
+[2024-07-10 11:53:47,255: INFO: main: >>>>> stage Model Training stage completed <<<<<
+
+x==========x]
