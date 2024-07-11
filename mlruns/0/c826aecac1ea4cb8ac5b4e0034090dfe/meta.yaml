@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galib/AI/End-end-project/End_to_End_ML_Project_With_MLFlow/mlruns/0/c826aecac1ea4cb8ac5b4e0034090dfe/artifacts
+end_time: 1720676981611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c826aecac1ea4cb8ac5b4e0034090dfe
+run_name: capricious-loon-789
+run_uuid: c826aecac1ea4cb8ac5b4e0034090dfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720676973352
+status: 3
+tags: []
+user_id: galib
