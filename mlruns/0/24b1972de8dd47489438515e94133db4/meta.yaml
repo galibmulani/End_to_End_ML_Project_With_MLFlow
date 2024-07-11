@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galib/AI/End-end-project/End_to_End_ML_Project_With_MLFlow/mlruns/0/24b1972de8dd47489438515e94133db4/artifacts
+end_time: 1720696358617
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24b1972de8dd47489438515e94133db4
+run_name: spiffy-kit-453
+run_uuid: 24b1972de8dd47489438515e94133db4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720696344026
+status: 3
+tags: []
+user_id: galib

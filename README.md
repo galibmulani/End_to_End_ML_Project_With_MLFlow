@@ -12,3 +12,8 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
+
+
+## create ECR repo to store/save docker image
+
+- save the URI : 257735053886.dkr.ecr.ap-southeast-2.amazonaws.com/mlproj

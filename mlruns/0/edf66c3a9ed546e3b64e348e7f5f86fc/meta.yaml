@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galib/AI/End-end-project/End_to_End_ML_Project_With_MLFlow/mlruns/0/edf66c3a9ed546e3b64e348e7f5f86fc/artifacts
+end_time: 1720704186311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edf66c3a9ed546e3b64e348e7f5f86fc
+run_name: whimsical-hawk-661
+run_uuid: edf66c3a9ed546e3b64e348e7f5f86fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720704164147
+status: 3
+tags: []
+user_id: galib
