@@ -16,4 +16,4 @@
 
 ## create ECR repo to store/save docker image
 
-- save the URI : 257735053886.dkr.ecr.ap-southeast-2.amazonaws.com/mlproj
+- save the URI : 257735053886.dkr.ecr.ap-southeast-2.amazonaws.com/mlproj 
