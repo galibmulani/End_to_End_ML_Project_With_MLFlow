@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/galib/AI/End-end-project/End_to_End_ML_Project_With_MLFlow/mlruns/0/4813e34220304f288e3e907f03149858/artifacts
+end_time: 1721040996981
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4813e34220304f288e3e907f03149858
+run_name: sincere-sheep-427
+run_uuid: 4813e34220304f288e3e907f03149858
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721040985640
+status: 3
+tags: []
+user_id: galib
